@@ -37,11 +37,10 @@ public class ProductService {
 
     @CacheEvict(value = "products", key = "#product.id")
     public Product updateProduct(Product product) {
-        System.out.println("xin chao ban");
         System.out.println("xin chao, mik ten la tuan anh");
         System.out.println("i love u, hien thi");
         System.out.println("hien thoi");
-        System.out.println("merge lan 2");
+        System.out.println("tuan anh hien thi");
         return productRepository.save(product);
     }
 }
