@@ -42,6 +42,7 @@ public class ProductService {
         System.out.println("hien thoi");
         System.out.println("tuan anh hien thi");
         System.out.println("anh yeu em hien oi");
+        System.out.println("merge lan moi nhat");
         return productRepository.save(product);
     }
 }
