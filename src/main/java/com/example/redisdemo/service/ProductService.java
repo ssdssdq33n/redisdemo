@@ -41,6 +41,7 @@ public class ProductService {
         System.out.println("xin chao, mik ten la tuan anh");
         System.out.println("i love u, hien thi");
         System.out.println("hien thoi");
+        System.out.println("merge lan 2");
         return productRepository.save(product);
     }
 }
