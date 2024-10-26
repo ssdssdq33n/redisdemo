@@ -41,6 +41,7 @@ public class ProductService {
         System.out.println("i love u, hien thi");
         System.out.println("hien thoi");
         System.out.println("tuan anh hien thi");
+        System.out.println("anh yeu em hien oi");
         return productRepository.save(product);
     }
 }
