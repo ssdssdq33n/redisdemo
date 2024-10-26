@@ -37,6 +37,7 @@ public class ProductService {
 
     @CacheEvict(value = "products", key = "#product.id")
     public Product updateProduct(Product product) {
+        System.out.println("xin chao ban");
         return productRepository.save(product);
     }
 }
